@@ -14,11 +14,12 @@
 
 /* common */
 ul {
-    text-decoration: none;
+    list-style: none;
 }
 
-li {
-    display: inline-block;
+a {
+    text-decoration: none;
+    color: white;
 }
 
 .title {
@@ -40,9 +41,8 @@ header {
 }
 
 .ms_h-container {
-       width: 98%;
-
-       line-height: 60px;       
+    width: 98%;
+    line-height: 60px;       
 }
 
 header .title {
@@ -56,6 +56,10 @@ header .title {
 .menu_list {
     display: none;
     text-align: right;
+}
+
+.menu_list li {
+    display: inline-block;
 }
 
 /* jumbotron */
@@ -85,18 +89,27 @@ header .title {
     background-color: #1abc9c;
     color: white;
     /* debug */
-    height: 250px;
+    height: 300px;
 }
 
 .button {
     border: 1px solid white;
     border-radius: 5px;
     display: inline-block;
-    text-align: center;
     padding: 6px 12px;
 }
 
+/* contact */
+.contact li {
+    display: block;
+    border-bottom: 1px solid lightgray;
+    padding: 0.5rem 0;
+}
 
+.green {
+    background-color: #1abc9c;
+    color: white;
+}
 
 
    
