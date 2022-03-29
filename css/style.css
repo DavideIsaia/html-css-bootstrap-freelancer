@@ -62,21 +62,39 @@ header .title {
 .jumbotron {
     background-color: #1abc9c;
     color: white;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 2rem;
-    text-align: center;
     /* debug */
-    height: 300px;
+    height: 350px;
+}
+
+.jumbotron img {
+    width: 20%;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;    
 }
 
 /* portfolio */
+.portfolio {
+    /* debug */
+    margin-bottom: 10px;
+}
 
 
+/* about */
+.about {
+    background-color: #1abc9c;
+    color: white;
+    /* debug */
+    height: 250px;
+}
 
-
-
-
+.button {
+    border: 1px solid white;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+    padding: 6px 12px;
+}
 
 
 
@@ -93,11 +111,5 @@ header .title {
 
     .menu_list {
         display: block;
-    }
-}
-
-@media (min-width: 992px) {
-    .ms_h-container {
-        width: 70%;
     }
 }
