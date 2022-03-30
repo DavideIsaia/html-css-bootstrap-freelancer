@@ -24,7 +24,7 @@ li {
 }
 
 li:hover a {
-    color: #1abc9c;
+    color: var(--ms-primary-color);
 }
 
 /* text style */
