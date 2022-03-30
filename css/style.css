@@ -182,10 +182,16 @@ header .title {
 }
 
 /* contact */
-.contact li {
-    display: block;
+.ms-form {
     border-bottom: 1px solid lightgray;
-    padding: 0.5rem 0;
+}
+
+.form-control {
+    border: 0;
+}
+
+.form-control:focus {
+    box-shadow: none;
 }
 
 .green {
@@ -198,6 +204,10 @@ footer {
     background-color: #3a546d;
     color: white;
     text-align: center;
+}
+
+.f_box {
+    padding: 1rem 0;
 }
 
 footer .fab {
