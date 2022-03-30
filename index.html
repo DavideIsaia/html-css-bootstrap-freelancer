@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Start Bootstrap</title>
+    <title>Bootstrap Freelancer</title>
 
     <!-- font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -16,18 +16,17 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
-        <div class="h_container">
-            <div class="container-fluid">
+    <header>     
+            <div class="container">
                 <div class="row">
-                    <div class="col-5">
+                    <div class="col-10 col-md-6">
                         <div class="title">Start Bootstrap</div>
                     </div>
-                    <div class="col">
-                        <div class="menu_burger">
+                    <div class="col-2 col-md-6">
+                        <div class="menu_burger text-end">
                             <i class="fas fa-bars"></i>
                         </div>
-                        <div class="menu_list">
+                        <div class="menu_list text-end">
                             <ul>
                                 <li><a href="">link</a></li>
                                 <li><a href="">link</a></li>
@@ -37,7 +36,6 @@
                     </div>
                 </div>
             </div>
-        </div>
     </header>
 
     <section class="jumbotron">
@@ -47,6 +45,10 @@
                     <img src="img/avatar.svg" alt="">
                 </div>
                 <div class="title">Start Bootstrap</div>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="title t_small">graphic artist - web designer - illustrator</div>
             </div>
         </div>
     </section>
@@ -54,7 +56,7 @@
     <section class="portfolio">
         <div class="container">
             <div class="title">portfolio</div>
-            <div class="row">
+            <div class="row g-4">
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="box">
                         <img src="img/cabin.png" alt="">
@@ -95,20 +97,22 @@
     </section>
 
     <section class="about">
-        <div class="container">
-            <div class="title">About</div>
-            <div class="row">
-                <div class="col-12 col-md-6">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum consectetur illum, illo atque iste debitis sint beatae tempore quod libero, voluptatibus ipsa cum reprehenderit eum ipsum. Quos excepturi dolorum nisi.
+        <div class="ms-container-small">
+            <div class="container-fluid">
+                <div class="title">About</div>
+                <div class="row gy-4">
+                    <div class="col-12 col-md-6">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum consectetur illum, illo atque iste debitis sint beatae tempore quod libero, voluptatibus ipsa cum reprehenderit eum ipsum. Quos excepturi dolorum nisi.
+                    </div>
+                    <div class="col-12 col-md-6">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis suscipit sequi provident, ipsa iste earum perspiciatis. Quia, nihil a? Placeat eos non quasi et animi aliquid. Quos nisi sint iste?
+                    </div>
                 </div>
-                <div class="col-12 col-md-6">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis suscipit sequi provident, ipsa iste earum perspiciatis. Quia, nihil a? Placeat eos non quasi et animi aliquid. Quos nisi sint iste?
-                </div>
-            </div>
-            <div class="col-12">
-                <div class="button">
-                    <i class="fas fa-download"></i>
-                    <span>Download</span>
+                <div class="col-12">
+                    <div class="button">
+                        <i class="fas fa-download"></i>
+                        <span>Download</span>
+                    </div>
                 </div>
             </div>
         </div>        
@@ -131,7 +135,7 @@
 
     <footer>
         <div class="container">         
-                <div class="row">
+                <div class="row gy-4">
                     <div class="col-12 col-md-4">
                         <div class="f_box">
                             <div class="title">location</div>
@@ -156,9 +160,6 @@
                 </div>
         </div>
         <div class="footer_bottom">Copyright &copy; Your Website 2019</div>
-    </footer>
-
-
-    
+    </footer>    
 </body>
 </html>
