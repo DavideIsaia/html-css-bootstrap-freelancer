@@ -46,6 +46,7 @@ li:hover a {
 .star {
     text-align: center;
     margin: 0.6rem auto;
+    font-size: 1.8rem;
 }
 
 .ms-bar {
@@ -189,6 +190,7 @@ header .subtitle {
     border-bottom: 1px solid lightgray;
 }
 
+/* bootstrap rules override */
 .ms-form .form-control {
     border: 0;
 }
@@ -202,6 +204,11 @@ header .subtitle {
     font-size: 1.3rem;
 }
 
+.ms-form textarea {
+    min-height: 100px;
+}
+
+/* button */
 .ms-btn-green {
     color: white;
     background-color: var(--ms-primary-color);
